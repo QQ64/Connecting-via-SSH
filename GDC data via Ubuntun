@@ -1,0 +1,17 @@
+Install gdc: sudo apt-get update
+sudo apt-get install gdc
+(or try wget https://gdc.cancer.gov/system/files/authenticated %20user/0/gdc-client_v1.3.0_Ubuntu14.04_X64.zip)
+pwd
+ls
+ls -al
+mkdir tcga
+cd tcga/
+ls
+pwd
+ls -lh
+
+
+Now we need to loading the downloeded files into web (via FTP filezilla)
+
+wc -l gdc_manifest.2018-08-05-*
+
