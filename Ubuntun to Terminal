@@ -1,0 +1,21 @@
+sudo apt-get upgrade
+sudo apt upgrade
+
+apt-cache search
+sudo apt-cache show package
+apt show package
+dpkg -s package
+sudo apt-get install package
+
+dnf list openssh*
+
+To begin as root on Ubuntu: type sudo -i
+
+***systemctl start sshd.service
+gksudo gedit
+
+
+sudo apt install openssh-server
+check ip address: ip a
+in terminal: $ ssh me@10.0.2.15
+
